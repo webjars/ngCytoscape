@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>ngCytoscape</artifactId>
-    <version>0.0.6</version>
+    <version>0.0.7-SNAPSHOT</version>
     <name>ngCytoscape</name>
     <description>Webjar for ngCytoscape</description>
 
@@ -35,7 +35,7 @@
         <url>http://github.com/webjars/ngCytoscape</url>
         <connection>scm:git:https://github.com/webjars/ngCytoscape.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/ngCytoscape.git</developerConnection>
-        <tag>ngCytoscape-0.0.6</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <dependencies>
