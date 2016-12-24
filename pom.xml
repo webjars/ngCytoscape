@@ -10,7 +10,7 @@
 
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
-    <artifactId>ngcytoscape</artifactId>
+    <artifactId>ngCytoscape</artifactId>
     <version>0.0.6-SNAPSHOT</version>
     <name>ngCytoscape</name>
     <description>Webjar for ngCytoscape</description>
@@ -32,23 +32,23 @@
     </licenses>
 
     <scm>
-        <url>http://github.com/webjars/ngcytoscape</url>
-        <connection>scm:git:https://github.com/webjars/ngcytoscape.git</connection>
-        <developerConnection>scm:git:https://github.com/webjars/ngcytoscape.git</developerConnection>
+        <url>http://github.com/webjars/ngCytoscape</url>
+        <connection>scm:git:https://github.com/webjars/ngCytoscape.git</connection>
+        <developerConnection>scm:git:https://github.com/webjars/ngCytoscape.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
     <dependencies>
-	<dependency>
-		<groupId>org.webjars</groupId>
-		<artifactId>cytoscape</artifactId>
-		<version>2.7.13</version>
-	</dependency>
-	<dependency>
-		<groupId>org.webjars</groupId>
-		<artifactId>angularjs</artifactId>
-		<version>1.5.8</version>
-	</dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>cytoscape</artifactId>
+            <version>2.7.13</version>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>angularjs</artifactId>
+            <version>1.5.8</version>
+        </dependency>
     </dependencies>
 
     <properties>
@@ -66,7 +66,7 @@
                 <version>1.0-beta-4</version>
                 <executions>
                     <execution>
-			<id>download-js</id>
+                        <id>download-js</id>
                         <phase>process-resources</phase>
                         <goals>
                             <goal>download-single</goal>
@@ -77,8 +77,8 @@
                             <toDir>${destDir}</toDir>
                         </configuration>
                     </execution>
-		    <execution>
-			<id>download-min-js</id>
+                    <execution>
+                        <id>download-min-js</id>
                         <phase>process-resources</phase>
                         <goals>
                             <goal>download-single</goal>
